@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+    margin:0; 
+    padding:0;
+}
+body{
+    background: linear-gradient(blue,gray);
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+}
+
+.container{
+    
+    max-width:700px;
+    width: 100%;
+    display: block;
+    margin-left: 25rem;
+    margin-top: 13rem;
+    background-color:#fff;
+    border-radius: 10px;
+    border:solid 2px black;
+}
+
+
+.header{
+    margin: 0px;
+    size: 2px;;
+    padding-top: 24px;
+    width: 50 px;
+    color: white;
+    height: 2cm;
+    text-align: center;
+    background-color:rgb(230, 87, 87);
+    border-radius: 10px;
+    border:solid 2px white;
+    
+}
+
+.input{
+    display: block;
+    padding: 20px;
+    border-radius: 2px;
+    text-align: center;
+}
+.input input{
+    padding: 8px;
+    width: 70%;
+    border-radius: 10px;
+    border:solid 2px black;
+}
+#addbtn{
+    padding: 8px;
+    width: 100px;
+    font-size: 15px;
+    margin-left:60px;
+    background-color:rgb(25, 128, 25);
+    color: #fff;
+    border-radius: 10px;
+    border:solid 2px black;
+
+}
+
+#addbtn:hover{
+    background:rgb(118, 223, 118);
+    color: black;
+}
+.list{
+    
+    text-align: center;
+    margin: 1px;
+    background-color: rgb(247, 187, 186);
+    list-style: none;
+    
+}
+.list ul {
+    margin: 5px;
+    padding: 5px;
+    list-style: none;
+}
+.list li{
+    background-color: rgb(241, 248, 248);
+    padding:10px;
+    margin: 10px;
+    position: relative;
+}
+.list li span{
+    background-color: rgb(248, 85, 85);
+    color: #fff;
+    size: 20px;
+    position: absolute ;
+    width: 40px;
+    height: 25px;
+    right: -0.05px;
+}
+.list li span:hover{
+    background-color: red;
+}
+.container .list{
+    overflow-y:auto;
+    max-height: 200px;
+}
+.container .butn{
+    display: flex;
+    width: 96.7%;
+    align-items: center;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+.butn{
+    background-color:rgb(250, 128, 128);
+    text-align: center;
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    border:solid 2px white;
+}
+
+#btn1:hover {
+    background-color: rgb(204, 185, 160);
+    color: black;
+}
+
+#btn1{
+    font-size: 15px;
+    padding: 6px;
+    margin-left: 50px;
+    margin-right: 20px;
+    right: -40px;
+    width: 100px;
+    background-color:red;
+    color: white;
+    border-radius: 10px;
+    border: solid 2px black;
+}
